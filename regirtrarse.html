@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <title>G06-DESARROLLO WED</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/estilos.css"></link>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    </head>
+    <style>
+        input{
+            font-size:larger;
+        }
+    </style>
+    <body>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tienda De Camisetas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./inicio.html">
+                  <i class="bi bi-house"></i> Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./frm_login.html">
+                  <i class="bi bi-person-fill"></i> Iniciar Sesión
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="./regirtrarse.html">
+                  <i class="bi bi-person-plus-fill"></i> Registrarse
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./Polo.html">Polo</a></li>
+                  <li><a class="dropdown-item" href="./Jersey.html">Jersey</a></li>
+                  <li><a class="dropdown-item" href="./Deportes.html">Deportivas</a></li>
+                  <li><a class="dropdown-item" href="./Estampadas.html">Estampadas</a></li>
+                  <li><a class="dropdown-item" href="./Manga_Larga.html">Manga Larga</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+          <div class="row">
+              <!-- <div class="col-1">
+              </div> -->
+              <div class="col-4">
+                <center style="margin-top: 110px; margin-left: 30px;">
+                <div class="text-center">
+                    <img src="./images/ddd.webp" class="rounded" width="550" height="650">
+                  </div>
+                </center>  
+            </div>
+
+              
+              <div class="col-1">
+              </div>
+              <div class="col-4" style="margin-top: 20px;margin-left: 90px; text-align: center;">
+                <!-- <center style="margin-top: 200px; "> -->
+                    <!-- <div class="container text-center">   -->
+                    <!-- <h1 style="margin-right: 90px;">¡Hola! Bienvenid@</h1>     -->
+                    <br>
+                    <div class="card" style="width: 30rem; text-align: left; padding-right: 30px;"  >
+                      <br>   
+                      <h1 style="margin-left: 10px;"> Registro</h1>
+                      <br>
+                      <p style="margin-left: 10px;margin-bottom: 20px;">Nombre:</p>
+                      <input type="text" placeholder="Nombre" style="margin-left: 10px;">
+                      <br>
+                      <p style="margin-left: 10px;margin-bottom: 20px;">Documento:</p>
+                      <input type="number" placeholder="Documento" style="margin-left: 10px;">
+                      <br>
+                      <p style="margin-left: 10px;margin-bottom: 20px;">Dirección:</p>
+                      <input type="text" placeholder="Dirección" style="margin-left: 10px;">
+                      <br>
+                      <p style="margin-left: 10px;margin-bottom: 20px;">Genero:</p>
+                      <select class="form-select;" id="autoSizingSelect" style="margin-left: 10px; margin-bottom: 10px;">
+                        <option selected>Seleccionar...</option>
+                        <option value="1">
+                          Mujer<i class="bi bi-gender-female"></i>
+                        </option>
+                        <option value="1">
+                          <i class="bi bi-gender-male"></i>Hombre
+                        </option>
+                      </select>
+                      <br>
+                      <p style="margin-left: 10px;margin-bottom: 20px;">Email:</p>
+                      <input type="email" placeholder="Email" style="margin-left: 10px;">
+                      <br>
+                      <p style="margin-left: 10px;margin-bottom: 20px;">Usuario:</p>
+                      <input type="text" placeholder="Usuario" style="margin-left: 10px;">
+                      <br>
+                      <p style="margin-left: 10px;margin-bottom: 20px;">Contraseña:</p>
+                      <input type="password" placeholder="Contraseña" style="margin-left: 10px;">
+                      <br>
+                      <br>
+                    </div>
+
+                    <!-- </div>  -->
+                <!-- </center> -->
+            </div>
+              <div class="col-1">
+              </div>
+          </div>
+      </div>
+
+      <footer style="background-color:rgba(128, 128, 128, 0.115); margin-top: 50px;">
+        <div class="container text" style="padding-top: 30px; padding-bottom: 15px;"> 
+          <div class="row">
+            <div class="col-4">
+              <h2><b>Proyecto De:</b></h2>
+              <br>
+              <br>
+              <img src="./images/misin.png"  width="350" height="110" >
+            </div>
+            <div class="col-4">
+              <H2><b>LLevado a Cabo Por:</b></H2>
+              <ul style="color: rgba(0, 0, 0, 0.712);">
+                <br>
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">ferneyrioscas@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Ferney Ríos Castro</cite>
+                </figcaption>
+                
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">oscardavidram@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Oscar David Ramirez</cite>
+                </figcaption>
+
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">oliviaburgosblanco@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Olivia Burgos Blanco </cite>
+                </figcaption>
+              
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">gonzalezparadasantiago19@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Santiago Gonzalez Parada</cite>
+                </figcaption>
+                <br>
+              </ul>
+            </div>
+            <div class="col-4">
+              <H2><b>Información:</b></H2>
+              <br>
+              <ul style="color: rgba(0, 0, 0, 0.712);">
+                <p class="text-decoration-underline">Politica De Privacidad</p>
+                <p class="text-decoration-underline">Terminos De Privacidad</p>
+                <p class="text-decoration-underline">Devoluciones</p>
+                <p class="text-decoration-underline">Terminos De Servicio</p>
+              </ul>
+            </div>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+              © 2022 Todos Los Derechos de Autor Reservados | Copyright
+            </div>  
+          </div>
+        </div>
+      </footer>
+      
+    </body>

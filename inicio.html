@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <title>INICIO</title>
+        <meta charset="UTF-8">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        
+    </head>
+    <style>
+      
+    </style>
+    <body>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tienda De Camisetas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./inicio.html">
+                  <i class="bi bi-house"></i> Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./frm_login.html">
+                  <i class="bi bi-person-fill"></i> Iniciar Sesión
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="./regirtrarse.html">
+                  <i class="bi bi-person-plus-fill"></i> Registrarse
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./Polo.html">Polo</a></li>
+                  <li><a class="dropdown-item" href="./Jersey.html">Jersey</a></li>
+                  <li><a class="dropdown-item" href="./Deportes.html">Deportivas</a></li>
+                  <li><a class="dropdown-item" href="./Estampadas.html">Estampadas</a></li>
+                  <li><a class="dropdown-item" href="./Manga_Larga.html">Manga Larga</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </body>
+
+    <!-- <navar> -->
+      <div class="fst-italic">
+        <h1 style="color: rgb(123, 194, 230); margin-top: 40px; margin-left:40px ;"><b>TIENDA DE CAMISETAS</b></h1>
+      </div>
+      <div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin-top: 40px; margin-bottom:40px; margin-left:40px ; margin-right: 40px;">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/inicio.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/inicio4.png" alt="Chicago" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/inicio6.png" alt="New York" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/inicio2.png" alt="cucuta" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/inicio5.png" alt="bogota" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/inicio3.png" alt="chinacota" class="d-block" style="width:100%">
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <div class="container">
+        <h3 style="text-align: center;">Recomendaciones Para Tí</h3>
+        <div class="row">
+          <div class="col my-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/j5.jpg" class="card-img-top" width="350" height="350">
+                <div class="card-body">
+                  <h5 class="card-title" style="display:inline-block;">Camiseta Vainilla</h5>
+                  <i class="bi bi-gender-female" style="display:inline-block;"></i>
+                  <br>   
+                  <p class="card-text" style="display:inline-block;"> Ahora:</p>
+                  <p  class="card-text" style="display:inline-block;  margin-left: 5px;"> $50.000</p> 
+                  <br>                         
+                  <p class="card-text" style="display: inline;"> Antes:</p>
+                  <p class="card-text" style="color: red; display: inline; margin-left: 8px;"><del>$60.000</del></p>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;">Comprar</a>
+                  <a href="./cart.html" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;  margin-left: 5px;">
+                    <i class="bi bi-cart-fill"></i>
+                  </a>
+                </div>
+              </div>
+          </div>
+          <div class="col my-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/ml2.jpg" class="card-img-top" width="350" height="350">
+                <div class="card-body">
+                  <h5 class="card-title" style="display:inline-block;">Bicolor Azul y Blanca</h5>
+                  <i class="bi bi-gender-female" style="display:inline-block;"></i>
+                  <br>   
+                  <p class="card-text" style="display:inline-block;"> Ahora:</p>
+                  <p  class="card-text" style="display:inline-block;  margin-left: 5px;"> $50.000</p> 
+                  <br>                         
+                  <p class="card-text" style="display: inline;"> Antes:</p>
+                  <p class="card-text" style="color: red; display: inline; margin-left: 8px;"><del>$60.000</del></p>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;">Comprar</a>
+                  <a href="./cart.html" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;  margin-left: 5px;">
+                    <i class="bi bi-cart-fill"></i>
+                  </a>
+                </div>
+              </div>
+          </div>
+          <div class="col my-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/d2.jpg" class="card-img-top" width="350" height="350">
+                <div class="card-body">
+                  <h5 class="card-title" style="display:inline-block;">Camiseta Azul Acero </h5>  
+                  <i class="bi bi-gender-male" style="display:inline-block;"></i>
+                  <br>
+                  <p class="card-text" style="display:inline-block;"> Ahora:</p>
+                  <p  class="card-text" style="display:inline-block;  margin-left: 5px;"> $50.000</p> 
+                  <br>                         
+                  <p class="card-text" style="display: inline;"> Antes:</p>
+                  <p class="card-text" style="color: red; display: inline; margin-left: 8px;"><del>$60.000</del></p>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;">Comprar</a>
+                  <a href="./cart.html" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;  margin-left: 5px;">
+                    <i class="bi bi-cart-fill"></i>
+                  </a>
+                </div>
+              </div>
+          </div>
+          <div class="col my-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/e1.webp" class="card-img-top" width="350" height="350">
+                <div class="card-body">
+                  <h5 class="card-title" style="display:inline-block;">Nasa</h5>
+                  <i class="bi bi-gender-male" style="display:inline-block;"></i>
+                  <br>   
+                  <p class="card-text" style="display:inline-block;"> Ahora:</p>
+                  <p  class="card-text" style="display:inline-block;  margin-left: 5px;"> $50.000</p> 
+                  <br>                         
+                  <p class="card-text" style="display: inline;"> Antes:</p>
+                  <p class="card-text" style="color: red; display: inline; margin-left: 8px;"><del>$60.000</del></p>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;">Comprar</a>
+                  <a href="./cart.html" class="btn btn-outline-light" style="background-color: mediumpurple;color:white;  margin-left: 5px;">
+                    <i class="bi bi-cart-fill"></i>
+                  </a>
+                </div>
+              </div>
+         </div>
+        </div>
+      </div>
+         
+
+      <footer style="background-color:rgba(128, 128, 128, 0.115); margin-top: 40px;">
+        <div class="container text" style="padding-top: 30px; padding-bottom: 15px;"> 
+          <div class="row">
+            <div class="col-4">
+              <h2><b>Proyecto De:</b></h2>
+              <br>
+              <br>
+              <img src="./images/misin.png"  width="350" height="110" >
+            </div>
+            <div class="col-4">
+              <H2><b>LLevado a Cabo Por:</b></H2>
+              <ul style="color: rgba(0, 0, 0, 0.712);">
+                <br>
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">ferneyrioscas@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Ferney Ríos Castro</cite>
+                </figcaption>
+                
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">oscardavidram@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Oscar David Ramirez</cite>
+                </figcaption>
+
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">oliviaburgosblanco@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Olivia Burgos Blanco </cite>
+                </figcaption>
+              
+                <li><a href="#" style="color: rgba(0, 0, 0, 0.712);">gonzalezparadasantiago19@gmail.com</a></li>
+                <br>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Santiago Gonzalez Parada</cite>
+                </figcaption>
+                <br>
+              </ul>
+            </div>
+            <div class="col-4">
+              <H2><b>Información:</b></H2>
+              <br>
+              <ul style="color: rgba(0, 0, 0, 0.712);">
+                <p class="text-decoration-underline">Politica De Privacidad</p>
+                <p class="text-decoration-underline">Terminos De Privacidad</p>
+                <p class="text-decoration-underline">Devoluciones</p>
+                <p class="text-decoration-underline">Terminos De Servicio</p>
+              </ul>
+            </div>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+              © 2022 Todos Los Derechos de Autor Reservados | Copyright
+            </div>  
+          </div>
+        </div>
+      </footer> 
+</html>    
